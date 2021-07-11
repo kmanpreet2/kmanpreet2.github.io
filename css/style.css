@@ -1,0 +1,109 @@
+body {
+    background-color: #222222;
+    color: white;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 20px;
+
+}
+
+
+
+.navbar-inverse {
+    border: none;
+    margin-top: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+.backgroundimage {
+    padding: 80px;
+}
+
+.main-size {
+    font-size: 27px;
+    margin-top: 70%;
+    line-height: 2;
+}
+
+
+
+.foreground-color {
+    color: aqua;
+}
+
+.different-texts {
+    font-family: 'Padauk', sans-serif;
+    font-size: 17px;
+}
+
+.next-padding {
+    padding-top: 29%;
+}
+
+.next-padding ul {
+    line-height: 3;
+}
+
+main {
+    width: 100%;
+    float: left;
+    margin-bottom: 40px;
+}
+
+header {
+    width: 100%;
+    float: left;
+}
+
+footer {
+    height: 50px;
+    padding-top: 15px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    width: 100%;
+    float: left;
+}
+
+.mywidget {
+    width: 70%;
+    margin: auto;
+}
+
+.widget {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    float: left;
+    -webkit-box-shadow: 5px 5px 22px 15px #BCBCBC;
+    box-shadow: 5px 5px 22px 15px #BCBCBC;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.widget h1{
+    margin-bottom: 20px;
+}
+
+.thumbnail {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+   transition: 0.3s;
+   min-width: 40%;
+   border-radius: 5px;
+ }
+
+ .thumbnail-description {
+   min-height: 40px;
+ }
+
+ .thumbnail:hover {
+   cursor: pointer;
+   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
+ }
+
+.mycontact {
+    width: 40%;
+    margin: auto;    
+}
