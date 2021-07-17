@@ -1,16 +1,16 @@
  
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #FAFBFC;
-  color: #fff;
-  position: relative;
+  background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+  color: #222222;
+  position: relative; 
   background: transparent;
 }
 
 body::before {
   content: "";
   position: fixed;
-  background: #FAFBFC;
+  background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
   background-size: cover;
   left: 0;
   right: 0;
@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header h1 a, #header h1 a:hover {
-  color: #fff;
+  color: #222222;
   line-height: 1;
   display: inline-block;
 }
@@ -79,7 +79,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header h2 span {
-  color: #fff;
+  color: #222222;
   border-bottom: 2px solid #18d26e;
   padding-bottom: 6px;
 }
@@ -113,7 +113,7 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
   align-items: center;
   background: rgba(255, 255, 255, 0.1);
-  color: #fff;
+  color: #222222;
   line-height: 1;
   margin-right: 8px;
   border-radius: 50%;
@@ -245,14 +245,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #fff;
+  color: #222222;
 }
 
 /**
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: #222222;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -360,7 +360,7 @@ section .container {
   margin: 0 0 20px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #aaaaaa;
+  color: #18d26e;
   font-family: "Poppins", sans-serif;
 }
 
@@ -380,7 +380,7 @@ section .container {
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #fff;
+  color: #222222;
 }
 
 /*--------------------------------------------------------------
@@ -450,7 +450,7 @@ section .container {
   font-size: 36px;
   display: block;
   font-weight: 600;
-  color: #fff;
+  color: #222222;
 }
 
 .counts .count-box p {
@@ -477,7 +477,7 @@ section .container {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #fff;
+  color: #222222;
 }
 
 .skills .progress .skill .val {
@@ -519,7 +519,7 @@ section .container {
   padding: 0;
   line-height: 1;
   font-size: 16px;
-  color: #fff;
+  color: #222222;
 }
 
 .interests .icon-box:hover {
@@ -547,7 +547,7 @@ section .container {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 45px;
-  color: #fff;
+  color: #222222;
 }
 
 .testimonials .testimonial-item h4 {
@@ -609,7 +609,7 @@ section .container {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #fff;
+  color: #222222;
 }
 
 .resume .resume-item {
@@ -687,7 +687,7 @@ section .container {
 }
 
 .services .icon-box .icon i {
-  color: #fff;
+  color: #222222;
   font-size: 28px;
 }
 
@@ -711,7 +711,7 @@ section .container {
 }
 
 .services .icon-box h4 a {
-  color: #fff;
+  color: #222222;
 }
 
 .services .icon-box p {
@@ -726,7 +726,7 @@ section .container {
 }
 
 .services .icon-box:hover .icon {
-  background: #fff;
+  background: #222222;
 }
 
 .services .icon-box:hover .icon i {
@@ -738,7 +738,7 @@ section .container {
 }
 
 .services .icon-box:hover h4 a, .services .icon-box:hover p {
-  color: #fff;
+  color: #222222;
 }
 
 /*--------------------------------------------------------------
@@ -765,7 +765,7 @@ section .container {
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: #fff;
+  color: #222222;
   background: rgba(255, 255, 255, 0.1);
   margin: 0 3px 10px 3px;
   transition: all 0.3s ease-in-out;
@@ -825,8 +825,8 @@ section .container {
   position: absolute;
   top: 35px;
   left: 35px;
-  border-top: 3px solid #fff;
-  border-left: 3px solid #fff;
+  border-top: 3px solid #222222;
+  border-left: 3px solid #222222;
   transition: all 0.5s ease 0s;
   z-index: 9994;
 }
@@ -839,20 +839,20 @@ section .container {
   position: absolute;
   bottom: 35px;
   right: 35px;
-  border-bottom: 3px solid #fff;
-  border-right: 3px solid #fff;
+  border-bottom: 3px solid #222222;
+  border-right: 3px solid #222222;
   transition: all 0.5s ease 0s;
   z-index: 9994;
 }
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 20px;
-  color: #fff;
+  color: #222222;
   font-weight: 600;
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
-  color: #ffffff;
+  color: #222222fff;
   font-size: 14px;
   text-transform: uppercase;
   padding: 0;
@@ -865,7 +865,7 @@ section .container {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
-  color: #fff;
+  color: #222222;
   margin: 0 2px;
   font-size: 28px;
   display: inline-block;
@@ -991,14 +991,14 @@ section .container {
 
 .contact .info-box h3 {
   font-size: 20px;
-  color: rgba(255, 255, 255, 0.5);
+  color: #18d26e;
   font-weight: 700;
   margin: 10px 0 8px 68px;
 }
 
 .contact .info-box p {
   padding: 0;
-  color: #fff;
+  color: #222222;
   line-height: 24px;
   font-size: 14px;
   margin: 0 0 0 68px;
@@ -1012,7 +1012,7 @@ section .container {
 .contact .info-box .social-links a {
   font-size: 18px;
   display: inline-block;
-  color: #fff;
+  color: #222222;
   line-height: 1;
   margin-right: 12px;
   transition: 0.3s;
@@ -1073,10 +1073,10 @@ section .container {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
-  background: rgba(255, 255, 255, 0.08);
+  background: #fff;
   border: 0;
   transition: 0.3s;
-  color: #fff;
+  color: #222222;
 }
 
 .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
@@ -1084,17 +1084,17 @@ section .container {
 }
 
 .contact .php-email-form input::-webkit-input-placeholder, .contact .php-email-form textarea::-webkit-input-placeholder {
-  color: rgba(255, 255, 255, 0.3);
+  color: black;
   opacity: 1;
 }
 
 .contact .php-email-form input::-moz-placeholder, .contact .php-email-form textarea::-moz-placeholder {
-  color: rgba(255, 255, 255, 0.3);
+  color: black;
   opacity: 1;
 }
 
 .contact .php-email-form input::placeholder, .contact .php-email-form textarea::placeholder {
-  color: rgba(255, 255, 255, 0.3);
+  color: black;
   opacity: 1;
 }
 
@@ -1110,7 +1110,7 @@ section .container {
   background: #18d26e;
   border: 0;
   padding: 10px 30px;
-  color: #fff;
+  color: #222222;
   transition: 0.4s;
   border-radius: 4px;
 }
@@ -1148,7 +1148,7 @@ section .container {
   padding: 15px;
   text-align: right;
   font-size: 13px;
-  color: #fff;
+  color: #222222;
   z-index: 999999;
 }
 
@@ -1166,5 +1166,5 @@ section .container {
 }
 
 .credits a:hover {
-  color: #fff;
+  color: #222222;
 }
