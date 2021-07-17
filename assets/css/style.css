@@ -1,7 +1,7 @@
  
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #cdcfca;
+  background-color: #FAFBFC;
   color: #fff;
   position: relative;
   background: transparent;
@@ -10,7 +10,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #cdcfca;
+  background: #FAFBFC;
   background-size: cover;
   left: 0;
   right: 0;
@@ -96,13 +96,13 @@ h1, h2, h3, h4, h5, h6 {
 
 
 #header .container {
-    background-color: black;
+    background-color: #cdcfca;
     height: 500px;
     padding-top: 10%;
 }
 
 #header.header-top .container {
-    background-color: black;
+    background-color: #cdcfca;
     height: auto;
     padding-top: 0;
 }
@@ -150,7 +150,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   top: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.9);
+  background: #cdcfca;
 }
 
 #header.header-top .social-links, #header.header-top h2 {
@@ -339,7 +339,7 @@ section.section-show {
 }
 
 section .container {
-  background: rgba(0, 0, 0, 0.9);
+  background: #cdcfca;
   padding: 30px;
 }
 
